@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <title>个人信息展示</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>个人信息展示</h1>
+    <div class="section">
+      <h2>个人信息</h2>
+      <p>姓名：李星火</p>
+      <p>年龄：200</p>
+      <p>职业：小学生</p>
+    </div>
+    
+    <div class="section">
+      <h2>技能</h2>
+      <ul>
+        <li>编程语言：JavaScript, Python, C++</li>
+        <li>前端框架：React, Vue</li>
+        <li>后端框架：Node.js, Django</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>项目经验</h2>
+      <ul>
+        <li>机器狗：负责机器狗的吃喝拉撒睡。</li>
+        <li>机器人：负责机器人的吃喝拉撒睡。</li>
+        <li>机器我：负责我的吃喝拉撒睡。</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <button onclick="showContactInfo()">显示联系方式</button>
+      <div id="contact-info" class="contact-info">
+        <p>邮箱：1145141919810@example.com</p>
+        <p>电话：123-456-7890</p>
+      </div>
+    </div>
+
+    <div class="section">
+        <button onclick="showImage()">机器鸟</button>
+        <div id="image-container" class="image-container">
+          <img id="image" src="1.jpg" alt="图片" style="display: none;">
+        </div>
+      </div>
+
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
